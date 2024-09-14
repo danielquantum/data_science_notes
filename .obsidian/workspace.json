@@ -4,20 +4,6 @@
     "type": "split",
     "children": [
       {
-        "id": "2239633bdb3dfead",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "764da782d50318cc",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
-            }
-          }
-        ]
-      },
-      {
         "id": "047a4f8276d8b00e",
         "type": "tabs",
         "children": [
@@ -27,13 +13,77 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python/Basic.md",
+                "file": "Python/Basic/Operator and Comparison.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "93ddbd9e5d7383ff",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Python/Basic/Primitive Data Structures.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0fc5767bb2149e3e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Python/Basic/String.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
+      },
+      {
+        "id": "4505b34b0e723eb6",
+        "type": "split",
+        "children": [
+          {
+            "id": "675090158a3e845b",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "edaf58f4a7a4be75",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Python/Basic.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "id": "5322619ab6775b54",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "6b2dfd26519ecd39",
+                "type": "leaf",
+                "state": {
+                  "type": "graph",
+                  "state": {}
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal"
       }
     ],
     "direction": "vertical"
@@ -52,7 +102,7 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "byCreatedTimeReverse"
               }
             }
           },
@@ -99,6 +149,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Python/Basic/String.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,6 +166,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Python/Basic/String.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +188,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Python/Basic/String.md"
+              }
             }
           }
         ]
@@ -156,14 +210,27 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "764da782d50318cc",
+  "active": "0fc5767bb2149e3e",
   "lastOpenFiles": [
-    "Python/Basic.md",
-    "Python/Python.md",
-    "Data Science.md",
+    "Python/Basic/Primitive Data Structures.md",
+    "Python/Basic/Operator and Comparison.md",
     "Python/Basic/Variables, Assignment, and Comments.md",
-    "Python/OOP.md",
     "Python/Basic/Print.md",
+    "Python/Basic/String.md",
+    "Python/Data Structures.md",
+    "Python/Basic/Composite Data Structures.md",
+    "Python/Basic.md",
+    "Data Science.md",
+    "Deployment/Deployment.md",
+    "API/API.md",
+    "Deployment",
+    "API",
+    "Statistic/Statistic.md",
+    "SQL/SQL.md",
+    "Statistic",
+    "SQL",
+    "Python/Python.md",
+    "Python/OOP.md",
     "Python/OOP",
     "Python/Basic",
     "Python"

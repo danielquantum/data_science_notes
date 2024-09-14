@@ -11,7 +11,12 @@ print(3)
 Formatting
 ```python
 name = 'Daniel'
-print(f{Hello {name}!})
+number = 19.500
+print(f{Hello {name}, my number is {number:.2f}!})
 ```
 
-Relatted: [[Variables, Assignment, and Comments]]
+| Option |          |
+| ------ | -------- |
+| \n     | new line |
+| \t     | tab      |
+Related: [[Variables, Assignment, and Comments]]

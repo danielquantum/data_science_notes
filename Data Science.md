@@ -1,1 +1,5 @@
 [[Python]]
+[[SQL]]
+[[Statistic]]
+[[API]]
+[[Deployment]]
