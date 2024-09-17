@@ -6,7 +6,7 @@ Operation
 'ab' * 3      # 'ababab' 
 ```
 
-Indexing
+Indexing and slicing
 ```python
 'daniel'[0]   # 'd'
 'daniel'[-1]  # 'l'
@@ -29,9 +29,12 @@ s = 'Title'
 s.upper()          # 'TITLE'
 s.lower()          # 'title'
 s.capitalize()     # 'Title'
+s.title()          # 'Title'
+s.count('e')       # 1
 s.find('T')        # return index of 'T'
 s.replace('T','b') # 'bitle' 
 ```
+https://www.w3schools.com/python/python_ref_string.asp
 
 Loop on string
 ```python

@@ -11,4 +11,3 @@ text = "Hello World!"   # assignment
 print(text)
 ```
 
-Related: [[Print]]

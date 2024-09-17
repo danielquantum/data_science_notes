@@ -9,6 +9,9 @@
 | Reminder       | 7%2    | 1      |       |
 | Plus           | 2+3    | 5      |       |
 | Minus          | 2-3    | -1     |       |
+| NOT            |        |        |       |
+| AND            |        |        |       |
+| OR             |        |        |       |
 
 ## Comparison
 | Comparison | Symbol | Result |
