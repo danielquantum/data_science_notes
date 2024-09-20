@@ -1,5 +1,5 @@
 
-| Order          | Symbol | Result | Type  |
+| Order          | Symbol | Output | Type  |
 | -------------- | ------ | ------ | ----- |
 | Parentheses    | ()     |        |       |
 | Power          | 2**3   | 8      |       |
@@ -9,14 +9,20 @@
 | Reminder       | 7%2    | 1      |       |
 | Plus           | 2+3    | 5      |       |
 | Minus          | 2-3    | -1     |       |
-| NOT            |        |        |       |
-| AND            |        |        |       |
-| OR             |        |        |       |
+
 
 ## Comparison
-| Comparison | Symbol | Result |
+
+| Comparison | Symbol | Symbol |
 | ---------- | ------ | ------ |
 | less       | i < j  | i <= j |
 | more       | i > j  | i >= j |
 | equal      | i == j |        |
 | not equal  | i != j |        |
+## Logical operation
+
+| Order | Symbol          | Output |
+| ----- | --------------- | ------ |
+| NOT   | NOT 4 < 5       | False  |
+| AND   | 4 < 5 AND 3 < 2 | False  |
+| OR    | 4 < 5 OR 3 < 2  | True   |

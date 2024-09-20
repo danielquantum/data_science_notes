@@ -1,5 +1,10 @@
 *immutable, allow duplicate*
 
+```python
+s = ""      # create empty string
+s = str()
+```
+
 Operation
 ```python
 'ab' + 'cd'   # 'abcd'
@@ -35,6 +40,7 @@ s.find('T')        # return index of 'T'
 s.replace('T','b') # 'bitle' 
 ```
 https://www.w3schools.com/python/python_ref_string.asp
+https://www.pythonmorsels.com/string-methods/
 
 Loop on string
 ```python
