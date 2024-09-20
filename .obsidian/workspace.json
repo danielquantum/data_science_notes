@@ -42,9 +42,33 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "81188bd277f4b34c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Python/Basic/Control/Condition and Branching.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c9437ef792325091",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Python/Basic/Control/Loop.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       },
       {
         "id": "5322619ab6775b54",
@@ -56,7 +80,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python/Basic/String.md",
+                "file": "Python/Basic.md",
                 "mode": "source",
                 "source": false
               }
@@ -68,13 +92,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python/Basic/Composite Data Structures.md",
+                "file": "Python/Python.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -140,7 +165,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Python/Basic/Tuple.md",
+                "file": "Python/Python.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -157,7 +182,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Python/Basic/Tuple.md",
+                "file": "Python/Python.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -180,7 +205,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Python/Basic/Tuple.md"
+                "file": "Python/Python.md"
               }
             }
           }
@@ -201,16 +226,22 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "435f74ab88a08a5f",
+  "active": "51ce8afcd7e7e603",
   "lastOpenFiles": [
-    "Python/Basic/String.md",
+    "Python/Basic.md",
+    "Python/Python.md",
+    "Python/Control.md",
+    "Python/Basic/Control/Loop.md",
+    "Python/Basic/Data Structures",
+    "Python/Basic/Control",
+    "Python/Basic/Control/Condition and Branching.md",
     "Python/Basic/Set.md",
+    "Python/Basic/Composite Data Structures.md",
+    "Python/Basic/String.md",
+    "Python/Basic/Tuple.md",
     "Python/Basic/Dictionary.md",
     "Python/Basic/List.md",
-    "Python/Basic/Tuple.md",
-    "Python/Basic/Composite Data Structures.md",
     "Data Science.md",
-    "Python/Basic.md",
     "Python/Basic/Primitive Data Structures.md",
     "Python/OOP.md",
     "Python/Basic/Operator and Comparison.md",
@@ -220,7 +251,6 @@
     "Python.md",
     "Print.pdf",
     "Python/Data Structures.md",
-    "Python/Python.md",
     "Deployment/Deployment.md",
     "API/API.md",
     "Deployment",
@@ -230,7 +260,6 @@
     "Statistic",
     "SQL",
     "Python/OOP",
-    "Python/Basic",
-    "Python"
+    "Python/Basic"
   ]
 }
