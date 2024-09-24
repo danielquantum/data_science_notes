@@ -27,5 +27,6 @@ print("Hello %s, my number is %d"%{name, number})
 | ------ | -------- |
 | \n     | new line |
 | \t     | tab      |
+
 https://www.w3schools.com/python/ref_string_format.asp
 
