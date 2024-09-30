@@ -1,7 +1,7 @@
 *immutable, allow duplicate*
 
 ```python
-s = ""      # create empty string
+s = ""        # create empty string
 s = str()
 ```
 
@@ -24,23 +24,23 @@ len('daniel') # 6
 Comparison
 ```python
 s = 'daniel'
-if s == 'daniel':   # < >
+if s == 'daniel':          # can also use '<' '>'
 	print(True)
 ```
 
 String method
 ```python
 s = 'Title'
-s.upper()          # 'TITLE'
-s.lower()          # 'title'
-s.capitalize()     # 'Title'
-s.title()          # 'Title'
-s.count('e')       # 1
-s.find('T')        # return index of 'T'
-s.replace('T','b') # 'bitle' 
+s = s.upper()              # 'TITLE'
+s = s.lower()              # 'title'
+s = s.capitalize()         # 'Title'
+s = s.title()              # 'Title'
+s = s.replace('T','b')     # 'bitle' 
+s.count('e')               # 1
+s.find('T')                # return index of 'T'
 ```
-https://www.w3schools.com/python/python_ref_string.asp
-https://www.pythonmorsels.com/string-methods/
+[Reference for string method](https://www.w3schools.com/python/python_ref_string.asp) , [Reference for string method](https://www.pythonmorsels.com/string-methods/) , [Reference for string method](https://www.pythonmorsels.com/string-methods/)
+
 
 Loop on string
 ```python

@@ -26,3 +26,22 @@
 | NOT   | NOT 4 < 5       | False  |
 | AND   | 4 < 5 AND 3 < 2 | False  |
 | OR    | 4 < 5 OR 3 < 2  | True   |
+## Boolean logic
+AND
+
+| A     | B     | A and B |
+| ----- | ----- | ------- |
+| True  | True  | True    |
+| True  | False | False   |
+| False | True  | False   |
+| False | False | False   |
+OR
+
+| A     | B     | A or B |
+| ----- | ----- | ------ |
+| True  | True  | True   |
+| True  | False | False  |
+| False | True  | False  |
+| False | False | False  |
+
+

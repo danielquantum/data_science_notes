@@ -12,6 +12,7 @@ Dictionary method
 |           | D = {'name':'Daniel', 'age': 25} |                                         |
 | keys      | D.keys()                         | 'name', 'age'                           |
 | values    | D.values()                       | 'Daniel', 25                            |
+| items     | D.items                          | (key, value)                            |
 | len       | len(D)                           | 2                                       |
 | get value | D['name']                        | 'Daniel'                                |
 |           | D.get('name')                    | 'Daniel'                                |
@@ -23,6 +24,21 @@ Dictionary method
 | copy      | D2 = D.copy()                    | create duplicate, D2                    |
 | clear     | D.clear()                        | {}, delete all                          |
 
+Loop
+```python
+D = {'name':'Daniel', 'age': 25}
+
+# Get key
+for key in D:                     # only key
+	print(key)
+
+# Get value
+for key in D:                     # only value
+	print(D[key])
+
+for key, value in D.items():      # unpack: key, value
+	print(f"{key} : {value}")
+```
 
 
 

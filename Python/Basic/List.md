@@ -53,6 +53,13 @@ if 3 in L:
 	print("3 is in L")
 ```
 
+Loop
+```python
+L = (1, 2, 3)
+for i in L:
+	print(i)
+```
+
 List comprehension
 ```python
 L = [1, 2, 3]

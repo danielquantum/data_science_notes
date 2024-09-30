@@ -1,6 +1,6 @@
 Type
 ```python
-type("3.0")   # str
+type("3.0")       # str
 ```
 
 | type  | casting    | output |
