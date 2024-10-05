@@ -1,7 +1,7 @@
-[[Tuple]]
-[[List]]
-[[Dictionary]]
-[[Set]]
+[[Tuple]] ( )
+[[List]] [ ]
+[[Dictionary]] {key:value}
+[[Set]] {unique}
 
 ```python
 dir()              # get info avail function

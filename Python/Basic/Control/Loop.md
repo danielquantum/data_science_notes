@@ -1,5 +1,7 @@
 *list, tuple, set, dictionary*
 
+ ***control flow**:break, continue, pass*
+
 if --> not effective in this case
 ```python
 i = 0
@@ -35,3 +37,4 @@ while i < 5:            # 0,1,2,3,4
 	print(i)
 	i += 1
 ```
+

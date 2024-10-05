@@ -14,7 +14,7 @@ Dictionary method
 | values    | D.values()                       | 'Daniel', 25                            |
 | items     | D.items                          | (key, value)                            |
 | len       | len(D)                           | 2                                       |
-| get value | D['name']                        | 'Daniel'                                |
+| get       | D['name']                        | 'Daniel'                                |
 |           | D.get('name')                    | 'Daniel'                                |
 | add       | D['job'] = 'Dev'                 | 'name':'Daniel', 'age': 25, 'job':'Dev' |
 | update    | D.update(D2)                     | similar like append in list             |

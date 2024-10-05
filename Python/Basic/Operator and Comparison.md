@@ -5,11 +5,10 @@
 | Power          | 2**3   | 8      |       |
 | Multiplication | 2*3    | 6      |       |
 | Division       | 2/3    | 0.67   | float |
-| Floor division | 2//3   | 0      |       |
+| Floor division | 2//3   | 0      | int   |
 | Reminder       | 7%2    | 1      |       |
 | Plus           | 2+3    | 5      |       |
 | Minus          | 2-3    | -1     |       |
-
 
 ## Comparison
 
@@ -23,9 +22,9 @@
 
 | Order | Symbol          | Output |
 | ----- | --------------- | ------ |
-| NOT   | NOT 4 < 5       | False  |
-| AND   | 4 < 5 AND 3 < 2 | False  |
-| OR    | 4 < 5 OR 3 < 2  | True   |
+| NOT   | not 4 < 5       | False  |
+| AND   | 4 < 5 and 3 < 2 | False  |
+| OR    | 4 < 5 or 3 < 2  | True   |
 ## Boolean logic
 AND
 
@@ -40,8 +39,8 @@ OR
 | A     | B     | A or B |
 | ----- | ----- | ------ |
 | True  | True  | True   |
-| True  | False | False  |
-| False | True  | False  |
+| True  | False | True   |
+| False | True  | True   |
 | False | False | False  |
 
 

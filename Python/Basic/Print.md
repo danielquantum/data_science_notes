@@ -1,13 +1,13 @@
 *python: case sensitive*
 
 Text
-*use*: ' ' or " "
+*use*: ' ' or " " or ''' '''
 ```python
 print("Hellow World!")
 ```
 
 Number
-*use*: '_' for readability
+*use*: _ for readability
 ```python
 print(3_000)                       # 3000
 

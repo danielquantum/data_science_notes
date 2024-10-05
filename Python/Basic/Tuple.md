@@ -11,6 +11,10 @@ t[0]                   # 2
 t[0:3]                 # 2, 5, 3.14
 ```
 
+```python
+a, b, c = (2, 3, 4)    # unpacking tuple
+```
+
 Tuple method
 
 |          | symbol         | output             |

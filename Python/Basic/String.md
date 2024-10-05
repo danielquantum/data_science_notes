@@ -7,18 +7,22 @@ s = str()
 
 Operation
 ```python
-'ab' + 'cd'   # 'abcd'
-'ab' * 3      # 'ababab' 
+'ab' + 'cd'                # 'abcd'
+'ab' * 3                   # 'ababab' 
+
+# in
+word = ['Daniel Smith']
+'Daniel' in word           # True
 ```
 
 Indexing and slicing
 ```python
-'daniel'[0]   # 'd'
-'daniel'[-1]  # 'l'
-'daniel'[0:4] # 'dani'
-'daniel'[::2] # 'dne'
+'daniel'[0]                # 'd'
+'daniel'[-1]               # 'l'
+'daniel'[0:4]              # 'dani'
+'daniel'[::2]              # 'dne'
 
-len('daniel') # 6
+len('daniel')              # 6
 ```
 
 Comparison
@@ -30,19 +34,20 @@ if s == 'daniel':          # can also use '<' '>'
 
 String method
 ```python
-s = 'Title'
-s = s.upper()              # 'TITLE'
-s = s.lower()              # 'title'
-s = s.capitalize()         # 'Title'
-s = s.title()              # 'Title'
-s = s.replace('T','b')     # 'bitle' 
-s.count('e')               # 1
-s.find('T')                # return index of 'T'
+s = 'Title 2'
+s = s.split()              # ['Title', 2]
+s = s.upper()              # 'TITLE 2'
+s = s.lower()              # 'title 2'
+s = s.capitalize()         # 'Title 2'
+s = s.title()              # 'Title 2'
+s = s.replace('T','b')     # 'bitle 2'  
+c = s.count('e')           # 1
+i = s.find('T')            # return index of 'T'
+i = s.index('T')           # 0
 ```
 [Reference for string method](https://www.w3schools.com/python/python_ref_string.asp) , [Reference for string method](https://www.pythonmorsels.com/string-methods/) , [Reference for string method](https://www.pythonmorsels.com/string-methods/)
 
-
-Loop on string
+**Loop on string**
 ```python
 for i in range(len(s)):
 	print(s[i])
@@ -52,3 +57,4 @@ or
 for i in s:
 	print(i)
 ```
+

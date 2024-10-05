@@ -1,7 +1,7 @@
 Comment
 ```python
 """
-Here is the example of multiline comments
+Here is the example of multiline comments / Docstrings
 """
 ```
 
@@ -12,7 +12,9 @@ text = "Hello World!"   # in line comment: Assignment
 print(text)
 
 # Multiple assignment
-num_1, num_2, num_3 = 1, 2, 3
+num_1, num_2, num_3 = 1, 2, 3        # tuple
+num_1, num_2, num_3 = (1, 2, 3)      # tuple
+num_1, num_2, num_3 = [1, 2, 3]      # list
 ```
 
 Nomenclature
