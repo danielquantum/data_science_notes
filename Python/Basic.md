@@ -1,5 +1,5 @@
 [[Print]]
-[[Variables, Assignment, and Comments]]
+[[Variables]]
 [[Data Structures]]
 [[Control]]
 

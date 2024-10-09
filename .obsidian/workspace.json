@@ -30,9 +30,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "07b53c9002b92ba4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Python/OOP/Lambda Function.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       },
       {
         "id": "5322619ab6775b54",
@@ -96,7 +108,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 260.5
   },
   "right": {
     "id": "e8b3e4cf890bc447",
@@ -112,7 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Python/OOP/Function.md",
+                "file": "Python/OOP/Lambda Function.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +141,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Python/OOP/Function.md",
+                "file": "Python/OOP/Lambda Function.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -152,7 +164,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Python/OOP/Function.md"
+                "file": "Python/OOP/Lambda Function.md"
               }
             }
           }
@@ -173,18 +185,20 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7bdfb85aef920b12",
+  "active": "07b53c9002b92ba4",
   "lastOpenFiles": [
-    "Python/Basic/Control/Loop.md",
     "Python/OOP/Function.md",
-    "Python/Basic/Control/List comprehension.md",
-    "Python/Basic/Control/Branching.md",
+    "Python/OOP/Lambda Function.md",
+    "Python/Python.md",
+    "Python/Basic/Operators.md",
+    "Python/Basic/Variables.md",
     "Python/Basic/Set.md",
     "Python/Basic/Dictionary.md",
     "Python/Basic/List.md",
     "Python/Basic/Tuple.md",
-    "Python/Basic/Variables, Assignment, and Comments.md",
-    "Python/Basic/Operator and Comparison.md",
+    "Python/Basic/Control/Loop.md",
+    "Python/Basic/Control/List comprehension.md",
+    "Python/Basic/Control/Branching.md",
     "Python/Basic/Primitive Data Structures.md",
     "Python/Basic/String.md",
     "Python/Basic/Composite Data Structures.md",
@@ -192,7 +206,6 @@
     "Python/OOP.md",
     "Python/Control.md",
     "Python/Basic.md",
-    "Python/Python.md",
     "Python/Data Structures.md",
     "Python/Basic/Data Structures",
     "Python/Basic/Control",

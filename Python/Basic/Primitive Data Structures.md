@@ -12,4 +12,4 @@ type("3.0")       # str
 | bool  | bool(1)    | True   |
 |       | bool(0)    | False  |
 | None  | None       | None   |
-related: [[String]], [[Operator and Comparison]]
+related: [[String]], [[Operators]]
