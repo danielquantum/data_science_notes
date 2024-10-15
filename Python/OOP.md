@@ -1,2 +1,2 @@
 [[Function]]
-[[Lamda Function]]
+[[Lambda Function]]

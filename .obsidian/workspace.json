@@ -30,21 +30,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "07b53c9002b92ba4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Python/OOP/Lambda Function.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       },
       {
         "id": "5322619ab6775b54",
@@ -57,8 +45,33 @@
               "type": "graph",
               "state": {}
             }
+          },
+          {
+            "id": "3eb5c94c5a15e0ed",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Tools/Conda.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b0243b018e0560e0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Tools.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -124,7 +137,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Python/OOP/Lambda Function.md",
+                "file": "Python/OOP/Function.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -141,7 +154,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Python/OOP/Lambda Function.md",
+                "file": "Python/OOP/Function.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -164,7 +177,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Python/OOP/Lambda Function.md"
+                "file": "Python/OOP/Function.md"
               }
             }
           }
@@ -185,43 +198,42 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "07b53c9002b92ba4",
+  "active": "7bdfb85aef920b12",
   "lastOpenFiles": [
+    "Python/OOP/Module.md",
+    "Python/Packages",
     "Python/OOP/Function.md",
+    "Tools/Conda.md",
+    "Python.md",
+    "Data Science.md",
+    "Tools.md",
+    "Python/OOP.md",
     "Python/OOP/Lambda Function.md",
-    "Python/Python.md",
-    "Python/Basic/Operators.md",
-    "Python/Basic/Variables.md",
+    "Python/Basic/Control/List comprehension.md",
+    "Python/Basic/Control/Loop.md",
+    "Python/Basic/Control/Branching.md",
     "Python/Basic/Set.md",
     "Python/Basic/Dictionary.md",
     "Python/Basic/List.md",
     "Python/Basic/Tuple.md",
-    "Python/Basic/Control/Loop.md",
-    "Python/Basic/Control/List comprehension.md",
-    "Python/Basic/Control/Branching.md",
-    "Python/Basic/Primitive Data Structures.md",
-    "Python/Basic/String.md",
     "Python/Basic/Composite Data Structures.md",
+    "Python/Basic/String.md",
+    "Python/Basic/Primitive Data Structures.md",
+    "Python/Basic/Operators.md",
+    "Python/Basic/Variables.md",
     "Python/Basic/Print.md",
-    "Python/OOP.md",
+    "Tools",
     "Python/Control.md",
     "Python/Basic.md",
     "Python/Data Structures.md",
     "Python/Basic/Data Structures",
     "Python/Basic/Control",
-    "Data Science.md",
     "Python.pdf",
-    "Python.md",
     "Print.pdf",
     "Deployment/Deployment.md",
-    "API/API.md",
     "Deployment",
     "API",
-    "Statistic/Statistic.md",
-    "SQL/SQL.md",
     "Statistic",
-    "SQL",
-    "Python/OOP",
-    "Python/Basic"
+    "SQL"
   ]
 }

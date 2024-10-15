@@ -1,5 +1,6 @@
 [[README]]
-[[Python/Python]]
+[[Tools]]
+[[Python]]
 [[SQL]]
 [[Statistic]]
 [[API]]
