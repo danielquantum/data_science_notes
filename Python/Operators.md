@@ -42,5 +42,3 @@ OR
 | True  | False | True   |
 | False | True  | True   |
 | False | False | False  |
-
-

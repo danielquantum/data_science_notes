@@ -4,124 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "047a4f8276d8b00e",
+        "id": "0b4333f3a7aff4b6",
         "type": "tabs",
-        "dimension": 58.83280757097792,
         "children": [
           {
-            "id": "066c88bfdf00fed2",
+            "id": "380cfd8924507f82",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Python/Basic/Control/Loop.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Loop"
-            }
-          },
-          {
-            "id": "7bdfb85aef920b12",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Python/OOP/Function.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Function"
-            }
-          },
-          {
-            "id": "1b620beb155df948",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Nomenclature.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Nomenclature"
-            }
-          },
-          {
-            "id": "1079c73286bee8ae",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Python/OOP/OOP 1.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "OOP 1"
-            }
-          },
-          {
-            "id": "55fdd918db22745e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Python/OOP/OOP 2.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "OOP 2"
-            }
-          }
-        ],
-        "currentTab": 3
-      },
-      {
-        "id": "5322619ab6775b54",
-        "type": "tabs",
-        "dimension": 41.16719242902208,
-        "children": [
-          {
-            "id": "6b2dfd26519ecd39",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
+              "type": "empty",
               "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
-            }
-          },
-          {
-            "id": "3eb5c94c5a15e0ed",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Tools/Conda.md",
-                "mode": "source",
-                "source": false
-              },
               "icon": "lucide-file",
-              "title": "Conda"
-            }
-          },
-          {
-            "id": "b0243b018e0560e0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Python.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Python"
+              "title": "New tab"
             }
           }
         ]
@@ -196,7 +89,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Python/OOP/OOP 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -206,7 +98,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for OOP 1"
+              "title": "Backlinks"
             }
           },
           {
@@ -265,43 +157,44 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1079c73286bee8ae",
+  "active": "380cfd8924507f82",
   "lastOpenFiles": [
-    "Deployment/Deployment.md",
-    "API/API.md",
-    "Python/OOP/OOP 1.md",
-    "Python/OOP/OOP 2.md",
-    "Nomenclature.md",
-    "Tools.md",
-    "Python.md",
-    "Python/OOP/Function.md",
-    "Python/OOP/Module.md",
-    "Python/Packages",
+    "2024-10-31.md",
+    "Untitled.canvas",
+    "Python/Python.md",
     "Tools/Conda.md",
-    "Data Science.md",
-    "Python/OOP.md",
-    "Python/OOP/Lambda Function.md",
-    "Python/Basic/Control/List comprehension.md",
-    "Python/Basic/Control/Loop.md",
-    "Python/Basic/Control/Branching.md",
-    "Python/Basic/Set.md",
-    "Python/Basic/Dictionary.md",
-    "Python/Basic/List.md",
-    "Python/Basic/Tuple.md",
-    "Python/Basic/Composite Data Structures.md",
-    "Python/Basic/String.md",
-    "Python/Basic/Primitive Data Structures.md",
-    "Python/Basic/Operators.md",
-    "Python/Basic/Variables.md",
-    "Python/Basic/Print.md",
+    "Packages",
+    "Python/Debugging.md",
+    "README.md",
+    "Clean Code.md",
+    "Python/Try Except.md",
+    "Try Except.md",
+    "tmp/Python/Basic/Debugging.md",
+    "Python/Object Oriented Programming.md",
+    "Python/Function.md",
+    "Python/Lambda Function.md",
+    "Python/Module.md",
+    "Python/Class.md",
+    "Python/Error.md",
+    "tmp/Python/Basic/Error.md",
+    "tmp/Python/OOP/OOP.md",
+    "tmp/Python/OOP/Module.md",
+    "tmp/Python/OOP/Lambda Function.md",
+    "tmp/Python/OOP/Function.md",
+    "Python/List Comprehension.md",
+    "tmp/Python/Basic/Control/Loop.md",
+    "tmp/Python/Basic/Control/List comprehension.md",
+    "Python/Loop.md",
+    "Python/Branching.md",
+    "tmp/Python/Basic/Control/Branching.md",
+    "Python",
+    "tmp",
+    "tmp/Z Table of Contents",
+    "tmp/Python/Packages",
     "Tools",
     "Python/Basic/Data Structures",
-    "Python/Basic/Control",
+    "tmp/Python/Basic/Control",
     "Python.pdf",
-    "Print.pdf",
-    "Deployment",
-    "API",
-    "Statistic",
-    "SQL"
+    "Print.pdf"
   ]
 }

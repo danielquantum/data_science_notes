@@ -1,6 +1,0 @@
-[[Nomenclature]]
-[[Basic]]
-[[OOP]]
-
-
-

@@ -1,11 +1,13 @@
-Comment
+## Comment
+
 ```python
 """
 Here is the example of multiline comments / Docstrings
 """
 ```
 
-Variable and Assignment
+## Variable and Assignment
+
 ```python
 # Single line comment
 text = "Hello World!"   # in line comment: Assignment
@@ -17,13 +19,17 @@ num_1, num_2, num_3 = (1, 2, 3)      # tuple
 num_1, num_2, num_3 = [1, 2, 3]      # list
 ```
 
-Nomenclature
-- use *pothole* case naming, instead of *CamelCase* naming
+## Nomenclature
+
+- use _pothole_ case naming, instead of _CamelCase_ naming
 - clear & represent variable names
+
 ```python
 product_name = "Jasmine tea"
 ```
+
 - constant: use all capital
+
 ```python
 PI = 3.14
 ```

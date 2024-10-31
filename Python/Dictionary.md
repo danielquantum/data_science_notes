@@ -37,9 +37,6 @@ for key in D:                     # only value
 	print(D[key])
 
 for key, value in D.items():      # unpack: key, value
-	print(f"{key} : {value}")
+	print(f"{key} : {value}")     # .values(), .keys()
 ```
-
-
-
 

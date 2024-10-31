@@ -4,9 +4,9 @@
 print(): show in screen
 return: store and return the operation inside function
 ```python
-def mult(a, b):
+def mult(a, b=1):                # default variable b=1
 	"""
-	Perform multiplication       # Docstrings
+	Perform multiplication       # Docstrings, use imperative sentence
 
 	Parameter:
 	a, b : int or float
@@ -14,7 +14,7 @@ def mult(a, b):
 	Output:
 	c : int of float
 	"""
-	global c       # to make variable exist in global scope
+	global c                     # to make variable exist in global scope
 	c = a*b
 	return c
 ```

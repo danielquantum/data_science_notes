@@ -1,3 +1,0 @@
-[[Branching]]
-[[Loop]]
-[[List comprehension]]

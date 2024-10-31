@@ -1,7 +1,0 @@
-[[README]]
-[[Tools]]
-[[Python]]
-[[SQL]]
-[[Statistic]]
-[[API]]
-[[Deployment]]
