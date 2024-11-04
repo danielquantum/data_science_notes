@@ -14,12 +14,12 @@ type("3.0")       # str
 | bool  | bool(1)    | True   |
 |       | bool(0)    | False  |
 | None  | None       | None   |
-
+related: [[Print]], [[Variables]], [[Operators]], [[String]], [[Primitive Functions]]
 ## Composite Data Structures
-- Tuple ()
-- List []
-- Dictionary {key: value}
-- Set {unique}
+- [[Tuple]] ()
+- [[List]] []
+- [[Dictionary]] {key: value}
+- [[Set]] {unique}
 
 ```python
 dir()              # get info avail function

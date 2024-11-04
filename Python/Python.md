@@ -14,6 +14,8 @@ function: function_name
 Class: NameClass
 attribute: .name_
 method: .method()
+module: module_name
+package: directory_name     # + __ini__.py
 ```
 
 ## Clean Code
@@ -24,3 +26,5 @@ method: .method()
 - Comments
 - Docstrings
 - Whitespaces
+
+related: [[Data Structure]]

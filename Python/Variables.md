@@ -14,9 +14,9 @@ text = "Hello World!"   # in line comment: Assignment
 print(text)
 
 # Multiple assignment
-num_1, num_2, num_3 = 1, 2, 3        # tuple
-num_1, num_2, num_3 = (1, 2, 3)      # tuple
-num_1, num_2, num_3 = [1, 2, 3]      # list
+num_1, num_2, num_3 = 1, 2, 3         # tuple
+num_1, num_2, num_3 = (1, 2, 3)       # tuple
+num_1, num_2, num_3 = [1, 2, 3]       # list
 ```
 
 ## Nomenclature

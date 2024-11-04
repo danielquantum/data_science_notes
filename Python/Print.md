@@ -37,5 +37,5 @@ print("Hello %s, my number is %d"%{name, number})
 from tabulate import tabulate
 dict = {key: val}
 
-print(tabulate(dict, header='keys'))
+print(tabulate(dict, headers='keys'))
 ```

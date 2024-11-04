@@ -40,3 +40,10 @@ for key, value in D.items():      # unpack: key, value
 	print(f"{key} : {value}")     # .values(), .keys()
 ```
 
+Combine two Lists
+```python
+L1 = ['Name', 'Age', 'City']
+L2 = ['Daniel', 25, 'Jakarta']
+
+D = dict(zip(L1, L2))
+```

@@ -47,10 +47,11 @@ i = s.index('T')           # 0
 ```
 [Reference for string method](https://www.w3schools.com/python/python_ref_string.asp) , [Reference for string method](https://www.pythonmorsels.com/string-methods/) , [Reference for string method](https://www.pythonmorsels.com/string-methods/)
 
-**Loop on string**
+## Loop on string
 ```python
+s = 'Daniel'
 for i in range(len(s)):
-	print(s[i])
+	print(s[i])            # 'D','a','n','i','e','l'
 ```
 or
 ```python
