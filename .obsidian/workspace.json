@@ -15,7 +15,7 @@
               "type": "markdown",
               "state": {
                 "file": "Python/List.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -196,10 +196,10 @@
   },
   "active": "380cfd8924507f82",
   "lastOpenFiles": [
+    "Python/List.md",
     "Python/Operators.md",
     "Python/Variables.md",
     "Python/Dictionary.md",
-    "Python/List.md",
     "Python/String.md",
     "Python/Data Structure.md",
     "Python/Python.md",
