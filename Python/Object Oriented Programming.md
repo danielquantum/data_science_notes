@@ -1,4 +1,5 @@
-- Function
-- Lambda Function
-- Module
-- Class
+- [[Function]]
+- [[Lambda Function]]
+- [[Module]]
+- [[Class]]
+

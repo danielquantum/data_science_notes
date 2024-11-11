@@ -2,15 +2,15 @@
 
 *naming: use capital letter* -> to differentiate between function and class
 
-## **Attribute (attribute class, attribute instance), Method, Instance**
+## **Attribute, Method, Instance**
 ```python
 class BankAccount:
-    # Attribute Class
+    # Class Attribute 
     domain = '@ddv.com'    # put class variable into class attribute
 
     # instance
     def __init__(self, acc_num, first_name, last_name, acc_balance):
-        # attribute instance
+        # instance attribute 
         self.acc_num = acc_num         # put instance var into instance att
         self.first_name = first_name
         self.last_name = last_name

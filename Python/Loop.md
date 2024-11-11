@@ -1,6 +1,6 @@
 *list, tuple, set, dictionary*
 
- ***control flow**:break, continue, pass*
+ ***control flow**: break, continue, pass*
 
 if --> not effective in this case
 ```python

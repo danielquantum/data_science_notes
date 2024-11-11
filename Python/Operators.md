@@ -1,3 +1,4 @@
+## Order
 
 | Order          | Symbol | Output | Type  |
 | -------------- | ------ | ------ | ----- |
@@ -26,7 +27,7 @@
 | AND   | 4 < 5 and 3 < 2 | False  |
 | OR    | 4 < 5 or 3 < 2  | True   |
 ## Boolean logic
-AND
+### AND
 
 | A     | B     | A and B |
 | ----- | ----- | ------- |
@@ -34,7 +35,7 @@ AND
 | True  | False | False   |
 | False | True  | False   |
 | False | False | False   |
-OR
+### OR
 
 | A     | B     | A or B |
 | ----- | ----- | ------ |

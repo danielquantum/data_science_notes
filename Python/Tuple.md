@@ -22,7 +22,7 @@ Tuple method
 | len      | len(t)         | 3                  |
 | in       | 2 in t         | True               |
 | index    | t.index(3.14)  | 2                  |
-| count    | t.count(5)     | 2                  |
+| count    | t.count(5)     | 1                  |
 | addition | t1 = t + (4,5) | (2, 5, 3.14, 4, 5) |
 | sorted   | ts = sorted(t) | (2, 3.14, 4, 5, 5) |
 | min      | min(t)         | 2                  |
