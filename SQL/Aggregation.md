@@ -1,16 +1,16 @@
-*aggregate for all data in selected column*
+- *Aggregated all data in a selected column*
+- *Use HAVING (not WHERE) for filtering aggregated results*
+- ***Aggregate Functions (agg_func)**: AVG, COUNT, SUM, MIN, MAX, STDDEV, VARIANCE*
 
-*Note: use HAVING, not WHERE for filtering*
-
-***agg_func**: AVG, COUNT, SUM, MIN, MAX, STDDEV, VARIANCE*
-
-**NULL**: in general don't take into account NULL, but counted in COUNT
+Handling **NULL**: 
+- General Rule: Aggregate functions ignore NULL values
+- Exception: COUNT includes NULL when counting rows 
 
 ```sql
 SELECT
-	agg_func(col_1)         -- agg func
+	agg_func(col_1)         -- Apply aggregate function to col_1
 	
-	COUNT(DISTINCT cust_id) -- count num of cust (unique row) (agg_func)
+	COUNT(DISTINCT cust_id) -- Count unique rows in cust_id col
 	
 FROM table_name
 ```

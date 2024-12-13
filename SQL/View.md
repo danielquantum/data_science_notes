@@ -1,6 +1,6 @@
 *Reusable in multiple queries, need rerun query to update, create virtual table*
 
-create view
+Create view
 ```sql
 CREATE VIEW total_trx_monthly 
 AS
@@ -10,13 +10,13 @@ SELECT
 FROM table_1
 ```
 
-call view
+Call view
 ```sql
 SELECT *
 FROM total_trx_monthly
 ```
 
-list view
+List view
 ```sql
 SELECT 
 	table_schema AS schema,

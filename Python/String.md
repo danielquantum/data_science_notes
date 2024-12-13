@@ -2,7 +2,7 @@
 
 Create
 ```python
-s = ""        # create empty string
+s = ""                    # create empty string
 s = str()
 ```
 

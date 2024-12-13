@@ -8,17 +8,17 @@
 | Division       | 2/3    | 0.67   | float |
 | Floor division | 2//3   | 0      | int   |
 | Reminder       | 7%2    | 1      |       |
-| Plus           | 2+3    | 5      |       |
-| Minus          | 2-3    | -1     |       |
+| Addition       | 2+3    | 5      |       |
+| Substraction   | 2-3    | -1     |       |
 
 ## Comparison
 
 | Comparison | Symbol | Symbol |
 | ---------- | ------ | ------ |
-| less       | i < j  | i <= j |
-| more       | i > j  | i >= j |
-| equal      | i == j |        |
-| not equal  | i != j |        |
+| Less than  | i < j  | i <= j |
+| More than  | i > j  | i >= j |
+| Equal      | i == j |        |
+| Not equal  | i != j |        |
 ## Logical operation
 
 | Order | Symbol          | Output |

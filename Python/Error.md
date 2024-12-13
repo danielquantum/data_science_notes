@@ -1,25 +1,28 @@
-Syntax error
-	syntax error
+### Syntax error
+syntax error
 ```python
-print('Hello'           # syntax error
+print('Hello'           # Missing closing parenthesis (syntax error)
+
 ```
-	identation error
+
+indentation error
 ```python
 for i in range(10):
-print(i)                # identation error
+print(i)                # Incorrect indentation (indentation error)
 ```
-Exception error
 
-| Nama Error | Artinya |
-|-------------|----------|
-|AttributeError            |   Objek tidak mengandung variabel atau metode contoh yang ditentukan      |
-|ImportError            | Statement import gagal menemukan modul atau nama tidak sesuai          |
-|IndexError            | Urutan(list, string, tuple) indeks di luar jangkauan        |
-|KeyError            | Key tidak ditentukan pada data dictionary  |
-|NameError            |Nama variabel lokal atau global yang ditentukan tidak ada                |
-|TypeError            | Operator atau fungsi yang diterapkan tidak tepat        |
-|ValueError            |Operasi atau fungsi diterapkan benar namun nilai tidak sesuai         |
-|ZeroDivisionError            |   Operand kedua dalam operasi pembagian atau modulus adalah nol      |
+### Exception error
 
+| Nama Error        | Description                                                                  |
+| ----------------- | ---------------------------------------------------------------------------- |
+| AttributeError    | The object does not contain the specified variable or method                 |
+| ImportError       | The `import` statement failed to locate the module, or the name is incorrect |
+| IndexError        | The index is out of range for a sequence (list, string, tuple)               |
+| KeyError          | The specified key does not exist in the dictionary                           |
+| NameError         | The specified local or global variable does not exist                        |
+| TypeError         | An operation or function is applied to an inappropriate type                 |
+| ValueError        | An operation or function has a valid type but an inappropriate value         |
+| ZeroDivisionError | The second operand in a division or modulus operation is zero                |
 
-Logical Error
+### Logical Error
+Logical errors occur when the code runs without raising exceptions but produces incorrect or unexpected results due to flawed logic.

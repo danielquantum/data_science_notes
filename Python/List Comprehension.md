@@ -5,15 +5,15 @@ Conventional
 ```python
 numbers = [1,2,3,4,5,6,7,8]
 
-even_number = []
+even_numbers = []
 for num in numbers:
 	if num%2 == 0:
-		even_number.append(num)
+		even_numbers.append(num)
 ```
 
 List comprehension
 ```python
 numbers = [1,2,3,4,5,6,7,8]
-even_number = [num for num in numbers if num%2 == 0]
+even_numbers = [num for num in numbers if num%2 == 0]
 ```
-English: insert every number for numbers if even
+**Interpretation**: "Insert every number from `numbers` into the new list if it is even."

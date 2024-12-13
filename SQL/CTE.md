@@ -1,7 +1,9 @@
-*common table expression: to reduce complexity of sub query*
+- Purpose: Simplify and improve readability of complex queries by breaking them into logical steps
+- Advantages: Easier to read and debug compared to sub queries
+- Disadvantages: CTEs are less reusable within the same session compared to temporary tables
 
 ### Using sub query
-*compact, no reusable, hard to read*
+*compact but hard to read and not reusable*
 ```sql
 SELECT MIN(col1)
 FROM (
@@ -13,7 +15,7 @@ FROM (
 ```
 
 ### Using common table expression (CTE)
-*improve readability, less reusable (need to rerun)*
+*improve readability but needs to be rerun each time*
 ```sql
 WITH total_trx AS(
 	SELECT id, SUM(amt) AS total_amt
@@ -29,21 +31,24 @@ JOIN tab2
 WHERE total_amt < (SELECT AVG(total_amt) FROM total_trx)
 ```
 
-two CTE
+Multiple CTEs
 ```sql
-WITH table_name AS(
+WITH cte_1 AS(
 	SELECT col_1
 	FROM table_1
 	WHERE col_1 > ()
 ),                         -- use comma
-table_2 AS(
-	SELECT
-	FROM
+cte_2 AS(
+	SELECT col_2
+	FROM table_2
 )
+SELECT *
+FROM cte_1
+JOIN cte_2 ON cte_1.col_1 = cte_2.col_2
 ```
 
 ### Using temporary table
-*reused multiple times in the session*
+*Reusable within the session, unlike CTEs*
 ```sql
 CREATE TEMPORARY TABLE total_trx AS(
 	SELECT id, SUM(amt) AS total_amt

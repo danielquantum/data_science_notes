@@ -1,8 +1,8 @@
-*case sensitive*
+*Case Sensitive*
 
 ## Miscellaneous
 ```python
-if isinstance(x, dict):   # primitive & composite data structure
+if isinstance(x, dict):   # Check if x is a dict (primitive & composite data structure)
 	print(f'{x} is dictionary')
 ```
 
@@ -14,23 +14,16 @@ Class: ClassName
 attribute: .name_
 method: .method()
 module: module_name
-package: directory_name     # + __ini__.py
+package: directory_name     # + __init__.py
 
-CONSTANT_VARIABLE: VARIABLE_NAME
+CONSTANT_VARIABLE: CONSTANT_NAME
 ```
 
-## Clean Code
-- PEP8
-- Naming conventions
-- Code Layout
-- Indentations
-- Comments
-- Docstrings
-- Whitespaces
+## Tools for code introspection and documentation
 
 ```python
-dir()              # get info avail function
-help.(str.upper)   # documentation
+dir()              # List attributes of an object or module
+help(str.upper)    # Get documentation for a method or function
 ```
 
 related: [[Python/Basic]], [[Data Structure]], [[Control Flow]], [[OOP]], [[Packages]]
