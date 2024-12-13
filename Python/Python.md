@@ -33,5 +33,5 @@ dir()              # get info avail function
 help.(str.upper)   # documentation
 ```
 
-related: [[Basic]], [[Data Structure]], [[Control Flow]], [[Object Oriented Programming]], [[Packages]]
+related: [[Python/Basic]], [[Data Structure]], [[Control Flow]], [[OOP]], [[Packages]]
 
