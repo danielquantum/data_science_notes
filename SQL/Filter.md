@@ -1,10 +1,10 @@
 ```sql
 SELECT *                              -- Retrieve all columns
-	EXTRACT(MONTH FROM date) AS month -- Retrieve month from the date
+	EXTRACT(MONTH FROM date) AS month -- Retrieve month from the date col
 FROM table_1                          -- Table name
 WHERE                                 -- Filtering
 	birthday > '1970-01-01'           -- Filtering by date
-	strftime('%m', col_1) = '08'      -- Extract parts of the date '%Y', '%m', '%d'
+	strftime('%m', col_1) = '08'      -- Extract parts of the date '%Y','%m','%d'
 	                                  -- IS NULL for empty values
 	
 	AND sex = 'M'                     -- Filtering by gender, Male
@@ -13,6 +13,8 @@ WHERE                                 -- Filtering
 	salary BETWEEN 1000 AND 2000      -- Range filter
 
 	id IN (105,107)                   -- Membership filter
+
+	LENGTH('col1') > 5                -- Length larger than 5 characters
 
 	first_name LIKE 'D%'              -- Case sensitive pattern matching
 	first_name ILIKE '_a%'            -- Case insensitive pattern matching

@@ -15,7 +15,7 @@ GROUP BY month
 ### Extract from string
 ```sql
 SELECT 
-	CASE WHEN SUBSTRING(col1, 1, 3)='S10'
+	CASE WHEN SUBSTRING(col1, 1, 3)='S10'  --index start from 1,last num included
 	THEN 'electronic'
 	ELSE 'cookware' END AS category
 	SUM(amt) as total_amt

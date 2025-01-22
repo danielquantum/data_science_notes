@@ -1,1 +1,1 @@
-related: [[Pandas]]
+related: [[Pandas]], [[Seaborn]]
