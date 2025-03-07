@@ -4,6 +4,8 @@ Grouping:
 - organized based on categories (columns) 
 - all columns in SELECT clause (except aggregate functions), must be included in the GROUP BY clause
 - use HAVING for filtering aggregated data
+Order by: 
+- use ',' to order by several criteria
 Window function: 
 - allow access to rows that are not grouped while still using aggregate functions 
 Join:

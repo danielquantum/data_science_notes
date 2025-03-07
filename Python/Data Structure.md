@@ -21,4 +21,4 @@ related: [[String]]
 - [[Tuple]] ()
 - [[List]] []
 - [[Dictionary]] {} {key: value}
-- [[Set]] {unique}
+- [[Python/Set]] {unique}

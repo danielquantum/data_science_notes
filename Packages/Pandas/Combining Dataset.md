@@ -1,4 +1,4 @@
-Concat 
+## Concat 
 - This can create duplicate columns
 
 | item | qty | item | price |
@@ -25,7 +25,7 @@ df4 = pd.concat([df1, df2])             # on row
 df4 = pd.concat([df1, df3], axis=1)     # on col, but 'item' col: duplicate 
 ```
 
-Merge
+## Merge
 - The default is an inner join, which includes only overlapping data. Use `on` to combine two data frames
 
 | item | qty | price |
@@ -37,7 +37,7 @@ Merge
 pd.merge(df1, df2, on="item", how='left')      # 'left', 'right'/'outer', 'inner'
 ```
 
-Join
+## Join
 - Key should be the index, default: left join
 
 | item | qty | price |

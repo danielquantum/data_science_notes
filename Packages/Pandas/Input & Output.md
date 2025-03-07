@@ -6,17 +6,18 @@ import pandas as pd                 # import pandas package
 Import from CSV
 ```python
 # Import csv to DataFrame
-df = pd.read_csv('filename.csv')    # read_parquet, read_excel, read_json, 
-									# read_stata, read_sql, read_fwf
+df = pd.read_csv('filename.csv')    # read_parquet, read_excel, read_json
 
-	index_col = 0                   # Create the first col as index, 'col_1'
+	index_col = 1                   # Create the 2nd col as an index, 'col_2'
+	index_col = False				# False to force not using the first col
+									
 	parse_dates=['col_date']        # Handle Datetime
 	header=0                        # Default first row as a header, None
 	
 	nrows = 5                       # Number of rows
 	skiprows=5                      # Skip the first 5 rows
 	
-	sep='\t'                        # Separation format ',' or '\t'
+	sep='\t'                        # Separation. '\t', ';', default ',' 
 	comment='#'                     # Take characters that are comments
 	na_values='Nothing'             # NA/NaN
 	
@@ -38,6 +39,6 @@ df.to_csv("data1.csv")              # Export as a csv file
 	index=False                     # Ignore index
 	header=False                    # Ignore header
 	float_format='%.2f'             # Formatting digits
-	sep='\t'                        # Separation
+	sep='\t'                        # Separation, default ','
 ```
 

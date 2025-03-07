@@ -1,1 +1,1 @@
-related: [[README]], [[Python]], [[SQL]] ,[[Tools]]
+related: [[README]], [[Python]], [[SQL]] ,[[Theory]], [[Tools]]

@@ -1,113 +1,41 @@
-## Series
-*1D array*
- 
- Create a series 
+## General
 ```python
-# Approach 1
-list_data = [5,2,1,1]
-index_data = ['a','b','c','d']
+import pandas as pd
 
-# Create a series using a list
-series_data = pd.Series(list_data)                   
-# Create a series using a list with a custom index
-series_data = pd.Series(list_data, index=index_data) 
+df2 = df.copy()          # copy dataframe to a new one
 
-# Approach 2
-dict_data = {
-    "IDMF":5, 
-    "TROF":2, 
-    "GODF":1, 
-    "DETN":1
-    }
-# Create a series using a dictionary    
-series_data = pd.Series(dict_data)                   
+# Set display limits
+pd.set_option('display.max_columns', len(df.columns))    # adjust display columns
+pd.set_option('display.max_rows', len(df))               # adjust display rows
 ```
 
-Operation
+## Data Exploration
 ```python
-# Using index
-series_data['a']                                     # 5
-series_data[['a','b']]                               # 5, 2
+df.info()                # Display df summary (non-null counts, dtypes)
+df.describe()            # Summary statistics for numerical columns
 
-# Slicing
-series_data[:2]                                      # 5, 2
-series_data[-3:]                                     # 2, 1, 1
-series_data[1:3]                                     # 2, 1
+# Summary for all columns, transposed for better readability
+df.describe(include='all').T  
 
-# Update
-series_data['a'] = 7                                 # 7,2,1,1
+df.isnull().sum()        # Check for missing values in each column
 
-# Append: will be depreciated in future version; use concat instead
-new_data = pd.Series([5,1], index = ['e','f'])
-series_data = series_data.append(new_data)           # 7,2,1,1,5,1
-
-# Delete
-series_data = series_data.drop(['e','f'])            # 7,2,1,1
-
-# Mathematical Operation in Series data
-series_data*3                                        # 21,6,3,3
+df.dtypes                # Display data types of each column
+df.columns               # List all column names
+df.values                # Get the values
+df.index                 # Get indexes
 ```
 
-## Dataframe
-*2D array*
-
-Create Dataframe
+## Connect to a database
 ```python
-# Dictionary
-dict_data = {
-    "item": ["Indomie", "Taro", "Good Day", "Detergen"],
-    "type": ["food", "food", "food", "non-food"],
-    "qty": [5, 2, 1, 1]
-}
+# Import library to acces a database
+import sqlite3
 
-index_data = ["IDMF", "TROF", "GODF", "DETN"]
+# create connection to database
+con = sqlite3.connect("chinook.db")
 
-# Create a DataFrame using a dictionary
-df = pd.DataFrame(dict_data)                          # default index
-df = pd.DataFrame(dict_data, index=index_data)        # custom index
+# access invoice table
+invoice = pd.read_sql("SELECT * from invoices", con)
+invoice.head()
 ```
 
-Operation
-```python
-df[['item']]                           # ['Indomie','Taro','Good Day','Detergen']
-
-# Retrieve
-df.loc[['index_name', 'col_name']]     # Retrieve cell value
-df.loc[['index_name']]                 # Retrieve row
-df.loc[:, ['col_name']]                # Retrieve column
-
-# Update cell
-df.loc["TROF","item"] = "Taro SW"      # 'Taro' --> 'Taro SW'
-
-# Update row
-df.loc["GODF"]=['GG Day','Food','3']   # 'GG Day','Food','3'
-
-# Update column
-df.loc[:,"qty"] = [5, 3, 2, 2]         # 5,3,2,2
-
-# Append row: will be depreciated in future pandas version
-new_row = pd.DataFrame({
-    "item": "Pasta Gigi", 
-    "type": "non-food", 
-    "qty": 4}, 
-    index=["PGIN"]
-    )
-
-# Add new_row to DataFrame
-df = df.append(new_row)
-
-# Append column
-df["price"] = [2500, 6000, 9000, 4500, 12000]
-
-# Delete row
-df = df.drop(["PGIN"])
-
-# Delete column
-df = df.drop(["price"], axis=1)       # 0 for row, 1 for column 
-```
-
-Related: [[Import & Export]], [[Combining Dataset]], [[Set Index & Columns]], [[Data Selection]], [[Data Cleaning]], [[Data Manipulation]], [[Parsing Dates]]
-
-
-
-
+Related: [[Input & Output]], [[Combining Dataset]], [[Index & Columns]], [[Data Selection]], [[Data Cleaning]], [[Data Manipulation]], [[Parsing Dates]], [[Pandas Data Structure]]
